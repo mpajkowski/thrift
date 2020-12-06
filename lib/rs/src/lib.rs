@@ -63,6 +63,7 @@ macro_rules! assert_success {
     }};
 }
 
+pub mod r#async;
 pub mod protocol;
 pub mod server;
 pub mod transport;
@@ -80,4 +81,4 @@ pub use crate::autogen::*;
 pub type Result<T> = std::result::Result<T, self::Error>;
 
 // Re-export ordered-float, since it is used by the generator
-pub use ordered_float::OrderedFloat as OrderedFloat;
+pub use ordered_float::OrderedFloat;

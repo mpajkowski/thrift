@@ -17,3 +17,6 @@ integer-encoding = ">=1.1.4" # https://issues.apache.org/jira/browse/THRIFT-5131
 log = "0.4"
 ordered-float = "1.0"
 threadpool = "1.7"
+futures = "0.3"
+async-trait = "0.1"
+pin-project = "1"
